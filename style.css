@@ -57,6 +57,14 @@ h5 {
 	font-size: var(--header4);
 }
 
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
 .flex {
 	display: flex;
 	flex-direction: column;
@@ -64,10 +72,10 @@ h5 {
 	align-items: center;
 }
 
-ul {
-	list-style: none;
+body {
+	font-family: "Ruhl", sans-serif;
 }
 
-a {
-	text-decoration: none;
+h1 {
+	font-family: "Vibes", sans-serif;
 }
