@@ -25,7 +25,8 @@ html {
 	--header2: calc(3.5rem + 1vw);
 	--header3: calc(3rem + 1vw);
 	--header4: calc(2.4rem + 1vw);
-	--text: calc(1.5rem + 1vw);
+	--text: calc(1rem + 1vw);
+	--text-mobile: calc(1.5rem + 1vw);
 	--big: calc(2.4rem + 1vw);
 	--special-color: #906272;
 	--background-color: #414141;
@@ -210,7 +211,7 @@ nav {
 }
 
 .about-text {
-	flex: 2 1 40rem;
+	flex: 2 1 60rem;
 	justify-content: space-around;
 	color: white;
 	background: var(--background-color);
@@ -325,5 +326,9 @@ nav {
 	/* About Section */
 	.about-text div {
 		padding: 3rem 3rem;
+	}
+
+	.about-text p {
+		font-size: var(--text-mobile);
 	}
 }
